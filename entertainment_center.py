@@ -13,12 +13,12 @@ moneyball = media.Movie(
 
 social_network = media.Movie(
     "The Social Network",
-    "https://upload.wikimedia.org/wikipedia/en/7/7a/Social_network_film_poster.jpg",
+    "https://upload.wikimedia.org/wikipedia/en/7/7a/Social_network_film_poster.jpg",  # noqa
     "https://www.youtube.com/watch?v=lB95KLmpLR4")
 
 blade_runner_2049 = media.Movie(
     "Blade Runner 2049",
-    "https://upload.wikimedia.org/wikipedia/en/2/27/Blade_Runner_2049_logo.png",
+    "https://upload.wikimedia.org/wikipedia/en/2/27/Blade_Runner_2049_logo.png",  # noqa
     "https://www.youtube.com/watch?v=gCcx85zbxz4")
 
 iron_man = media.Movie(
@@ -32,6 +32,6 @@ tron_legacy = media.Movie(
     "https://www.youtube.com/watch?v=L9szn1QQfas")
 
 movies = [deadpool, moneyball, social_network, blade_runner_2049, iron_man,
-    tron_legacy]
+          tron_legacy]
 
 fresh_tomatoes.open_movies_page(movies)

@@ -1,4 +1,7 @@
 class Movie():
+    '''This class provides a way to store movie related information,
+    including the title, poster image and trailer URL.'''
+
     def __init__(self, movie_title, poster_image, trailer_youtube):
         self.title = movie_title
         self.poster_image_url = poster_image
